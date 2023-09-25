@@ -2,6 +2,12 @@
   background: linear-gradient(300deg, #00a2ff, #4cff94, #deef72);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+  margin:none;
+}
+#footer > .container{
+  margin:none; 
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 @keyframes gradient-animation {
@@ -15,6 +21,16 @@
     background-position: 0% 50%;
   }
 }
+
+.dogimg{
+ height: 100px;
+ width: 100px;
+ margin-top:5px;
+ margin-bottom: 2px;
+ border-radius: 50%;
+
+}
+
 .btn {
   width : 200px;
   font-weight: bold;
